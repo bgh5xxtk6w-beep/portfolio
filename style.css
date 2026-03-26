@@ -688,6 +688,17 @@ section {
     padding: 2.5rem 1.5rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+/* Highlight Supervisor at the bottom */
+.team-card:has(img[src*="member1"]) {
+    grid-column: 1 / -1;
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* Highlight Leader & Co-leader */
+.team-card:nth-child(3), .team-card:nth-child(4) {
+    border: 1px solid var(--primary);
+    background: rgba(14, 165, 233, 0.05);
+}
 .team-card:hover {
     transform: translateY(-15px);
     border-color: var(--primary);
