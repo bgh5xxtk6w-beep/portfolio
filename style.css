@@ -688,9 +688,12 @@ section {
     padding: 2.5rem 1.5rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-/* Highlight Supervisor at the bottom */
-.team-card:has(img[src*="member1"]) {
-    grid-column: 1 / -1;
+/* Supervisor Dedicated Section */
+.supervisor-section {
+    background: var(--bg-main);
+    padding: 2rem 0 8rem 0; /* Less top padding since it follows team */
+}
+.supervisor-card {
     max-width: 400px;
     margin: 0 auto;
 }
