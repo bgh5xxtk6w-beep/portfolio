@@ -693,10 +693,6 @@ section {
     background: var(--bg-main);
     padding: 2rem 0 8rem 0; /* Less top padding since it follows team */
 }
-.supervisor-card {
-    max-width: 400px;
-    margin: 0 auto;
-}
 /* Highlight Leader & Co-leader */
 .team-card:nth-child(3), .team-card:nth-child(4) {
     border: 1px solid var(--primary);
